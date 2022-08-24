@@ -12,4 +12,4 @@ python3 My\ live\ in\ weeks.py
 
 ## Config
 
-You can change your age of death in line 11, in 'years-to-live=70' change 70 to the age at which you would prefer to die.
+You can change your death's age in line 11, in 'years-to-live=70' change 70 to the age at which you would prefer to die.

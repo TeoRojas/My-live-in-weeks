@@ -1,4 +1,6 @@
 import datetime
+import os
+import platform 
 
 def birth_date_to_dic(birth_date):
     birth = {
@@ -49,3 +51,9 @@ def prints_squares(years_to_live, blocks_number, blocks_lived):
         print(" ")
         if (year+1)%10 == 0:
             print(" ")
+
+def clear_screen():
+    if platform.system() == 'Windows':
+        os.system('cls')
+    else:
+        os.system('clear')

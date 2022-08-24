@@ -1,4 +1,3 @@
-import os
 from mliw_functions import *
 
 """
@@ -18,7 +17,7 @@ if __name__ == "__main__":
     weeks_lived = int(days_lived/7)
     blocks_lived = int(weeks_lived/1.00275)
 
-    os.system('clear')
+    clear_screen()
 
     print("MY LIFE IN WEEKS".center(68), end='\n\n    ')
 
